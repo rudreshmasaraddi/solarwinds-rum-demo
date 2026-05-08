@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hello SolarWinds</title>
+
+    <!-- SOLARWINDS RUM SCRIPT -->
+    <script src="PASTE-YOUR-RUM-SCRIPT-HERE"></script>
+
+    <style>
+        body{
+            font-family: Arial;
+            background:#f4f4f4;
+            margin:0;
+            padding:0;
+        }
+
+        header{
+            background:#0b5cad;
+            color:white;
+            padding:20px;
+            text-align:center;
+        }
+
+        .container{
+            padding:20px;
+        }
+
+        .card{
+            background:white;
+            padding:20px;
+            margin:20px;
+            border-radius:10px;
+            box-shadow:0 0 10px rgba(0,0,0,0.2);
+        }
+
+        button{
+            padding:10px 20px;
+            background:#0b5cad;
+            color:white;
+            border:none;
+            border-radius:5px;
+            cursor:pointer;
+        }
+
+        img{
+            width:100%;
+            border-radius:10px;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>Hello SolarWinds Observability</h1>
+    <p>Real User Monitoring Demo Application</p>
+</header>
+
+<div class="container">
+
+    <div class="card">
+        <h2>Bangalore Palace</h2>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/3/32/Bangalore_Palace.jpg">
+        <p>One of the famous tourist places in Bangalore.</p>
+        <button onclick="showMessage()">Explore</button>
+    </div>
+
+    <div class="card">
+        <h2>Lalbagh Botanical Garden</h2>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/1/12/Lal_Bagh_Main_Gate.jpg">
+        <p>Beautiful garden in Bangalore city.</p>
+    </div>
+
+</div>
+
+<script>
+
+function showMessage(){
+    alert("Welcome to SolarWinds RUM Demo!");
+}
+
+</script>
+
+</body>
+</html>
